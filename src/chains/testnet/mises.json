@@ -1,0 +1,15 @@
+{
+    "chain_name": "Mises",
+    "api": ["https://rest.gw.mises.site"],
+    "rpc": ["http://38.242.246.129:36657"],
+    "snapshot_provider": "",
+    "addr_prefix": "mis",
+    "logo": "/logos/mises.png",
+    "assets": [{
+        "base": "umis",
+        "symbol": "MIS",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/mises.png"
+    }]
+}
