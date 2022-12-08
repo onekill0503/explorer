@@ -1,6 +1,7 @@
 {
+    "chain_id": "testnet",
     "chain_name": "Mises",
-    "api": ["https://rest.gw.mises.site"],
+    "api": ["http://38.242.246.129:36659"],
     "rpc": ["http://contabo1.alwaysbedream.dev:36657"],
     "snapshot_provider": "",
     "addr_prefix": "mises",
