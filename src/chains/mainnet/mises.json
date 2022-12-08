@@ -1,14 +1,16 @@
 {
+    "chain_id": "mainnet",
     "chain_name": "Mises",
     "api": ["https://rest.gw.mises.site"],
-    "rpc": ["http://38.242.246.129:36657"],
+    "rpc": ["http://contabo1.alwaysbedream.dev:36657"],
     "snapshot_provider": "",
-    "addr_prefix": "mis",
+    "addr_prefix": "mises",
     "logo": "/logos/mises.png",
+    "coin_type": 118,
     "assets": [{
         "base": "umis",
         "symbol": "MIS",
-        "exponent": "6",
+        "exponent": 6,
         "coingecko_id": "", 
         "logo": "/logos/mises.png"
     }]
