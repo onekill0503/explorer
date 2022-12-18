@@ -1,8 +1,8 @@
 {
     "chain_id": "mainnet",
     "chain_name": "Mises",
-    "api": ["http://contabo1.alwaysbedream.dev:10000"],
-    "rpc": ["http://contabo1.alwaysbedream.dev:10001"],
+    "api": ["https://contabo1.alwaysbedream.dev:10000"],
+    "rpc": ["https://contabo1.alwaysbedream.dev:10001"],
     "snapshot_provider": "",
     "addr_prefix": "mises",
     "logo": "/logos/mises.png",
