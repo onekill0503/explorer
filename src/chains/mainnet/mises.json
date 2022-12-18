@@ -1,8 +1,8 @@
 {
     "chain_id": "mainnet",
     "chain_name": "Mises",
-    "api": ["https://rest.gw.mises.site"],
-    "rpc": ["http://contabo1.alwaysbedream.dev:36657"],
+    "api": ["http://contabo1.alwaysbedream.dev:10000"],
+    "rpc": ["http://contabo1.alwaysbedream.dev:10001"],
     "snapshot_provider": "",
     "addr_prefix": "mises",
     "logo": "/logos/mises.png",
@@ -11,7 +11,7 @@
         "base": "umis",
         "symbol": "MIS",
         "exponent": 6,
-        "coingecko_id": "", 
+        "coingecko_id": "qck", 
         "logo": "/logos/mises.png"
     }]
 }
