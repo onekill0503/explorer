@@ -1,0 +1,17 @@
+{
+    "chain_id": "testnet-1",
+    "chain_name": "Human",
+    "api": ["https://contabo2.alwaysbedream.dev:20000"],
+    "rpc": ["https://contabo2.alwaysbedream.dev:20001"],
+    "snapshot_provider": "",
+    "addr_prefix": "human",
+    "logo": "/logos/humans.svg",
+    "coin_type": 118,
+    "assets": [{
+        "base": "uheart",
+        "symbol": "HEART",
+        "exponent": 6,
+        "coingecko_id": "HEART", 
+        "logo": "/logos/humans.svg"
+    }]
+}
