@@ -7,7 +7,7 @@
     "addr_prefix": "mises",
     "logo": "/logos/mises.png",
     "coin_type": 118,
-    "sdk_version": "0.46.7",
+    "sdk_version": "0.46.4",
     "assets": [{
         "base": "umis",
         "symbol": "MIS",

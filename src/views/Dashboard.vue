@@ -640,7 +640,7 @@ export default {
       this.inflation = '-'
     } else {
       this.$http.getMintingInflation().then(res => {
-        this.inflation = `${percent(res)}%`
+        this.inflation = `${percent((Number.isNaN(res) ? 0 : res))}%`
       }).catch(() => {
         this.inflation = '-'
       })
