@@ -7,11 +7,12 @@
     "addr_prefix": "mises",
     "logo": "/logos/mises.png",
     "coin_type": 118,
+    "sdk_version": "0.46.7",
     "assets": [{
         "base": "umis",
         "symbol": "MIS",
         "exponent": 6,
-        "coingecko_id": "qck", 
+        "coingecko_id": "MIS", 
         "logo": "/logos/mises.png"
     }]
 }

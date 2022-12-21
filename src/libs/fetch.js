@@ -1,9 +1,9 @@
 import fetch from 'node-fetch'
 // import axios from 'axios'
-import store from '@/store'
 import compareVersions from 'compare-versions'
 import { TxRaw } from 'cosmjs-types/cosmos/tx/v1beta1/tx'
 import { fromHex, toBase64 } from '@cosmjs/encoding'
+import store from '@/store'
 import {
   Proposal, ProposalTally, Proposer, StakingPool, Votes, Deposit,
   Validator, StakingParameters, Block, ValidatorDistribution, StakingDelegation, WrapStdTx, getUserCurrency,

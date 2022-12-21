@@ -123,6 +123,7 @@ import {
 } from 'bootstrap-vue'
 import Ripple from 'vue-ripple-directive'
 import VuexyLogo from '@core/layouts/components/Logo.vue'
+import compareVersions from 'compare-versions'
 import store from '@/store/index'
 import { timeIn, toDay, getLocalChains } from '@/libs/utils'
 import AppFooter from '@/@core/layouts/components/AppFooter.vue'
@@ -175,7 +176,8 @@ export default {
       if (chain.api) {
         const index = localStorage.getItem(`${chain.chain_name}-api-index`) || 0
         const host = Array.isArray(chain.api) ? chain.api[index] : chain.api
-        fetch(`${host}/blocks/latest`).then(res => res.json()).then(b => {
+        const target = compareVersions(chain.sdk_version, '0.45') < 1 ? `${host}/blocks/latest` : `${host}/cosmos/base/tendermint/v1beta1/blocks/latest`
+        fetch(`${target}`).then(res => res.json()).then(b => {
           const { header } = b.block
           this.$set(chain, 'height', header.height)
           this.$set(chain, 'time', toDay(header.time))

@@ -7,6 +7,7 @@
     "addr_prefix": "human",
     "logo": "/logos/humans.svg",
     "coin_type": 118,
+    "sdk_version": "0.47",
     "assets": [{
         "base": "uheart",
         "symbol": "HEART",
