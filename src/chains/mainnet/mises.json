@@ -6,7 +6,7 @@
     "snapshot_provider": "",
     "addr_prefix": "mises",
     "logo": "/logos/mises.png",
-    "coin_type": 118,
+    "coin_type": 60,
     "sdk_version": "0.46.4",
     "assets": [{
         "base": "umis",
