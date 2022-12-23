@@ -9,10 +9,11 @@
     "coin_type": 118,
     "sdk_version": "0.47",
     "assets": [{
+        "assets": "HEART",
         "base": "uheart",
         "symbol": "HEART",
         "exponent": 6,
-        "coingecko_id": "HEART", 
+        "coingecko_id": "humans-ai", 
         "logo": "/logos/humans.svg"
     }]
 }
