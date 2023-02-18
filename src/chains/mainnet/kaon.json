@@ -1,0 +1,18 @@
+{
+    "chain_id": "testnet",
+    "chain_name": "Kaon-1",
+    "api": ["https://kaon.node.alwaysbedream.dev"],
+    "rpc": ["https://kaon.node.alwaysbedream.dev:1000"],
+    "snapshot_provider": "",
+    "addr_prefix": "kyve",
+    "logo": "/logos/kyve.png",
+    "coin_type": 118,
+    "sdk_version": "0.47",
+    "assets": [{
+        "base": "tkyve",
+        "symbol": "KYVE",
+        "exponent": 6,
+        "coingecko_id": "", 
+        "logo": "/logos/kyve.png"
+    }]
+}
