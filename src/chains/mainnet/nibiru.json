@@ -1,0 +1,18 @@
+{
+    "chain_id": "testnet",
+    "chain_name": "nibiru-itn-1",
+    "api": ["https://nibiru.node.alwaysbedream.dev:4445"],
+    "rpc": ["https://nibiru.node.alwaysbedream.dev:4444"],
+    "snapshot_provider": "",
+    "addr_prefix": "nibi",
+    "logo": "/logos/nibiru.png",
+    "coin_type": 118,
+    "sdk_version": "0.45",
+    "assets": [{
+        "base": "unibi",
+        "symbol": "NIBI",
+        "exponent": 6,
+        "coingecko_id": "", 
+        "logo": "/logos/nibiru.png"
+    }]
+}
