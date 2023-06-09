@@ -6,7 +6,7 @@
     "name": "ping.pub"
   },
   "engines": {
-    "node": ">16 <18"
+    "node": "17.x"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
