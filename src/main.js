@@ -21,7 +21,7 @@ import '@/libs/portal-vue'
 import '@/libs/toastification'
 import '@/libs/clipboard'
 
-inject();
+inject()
 
 Vue.directive('observe-visibility', ObserveVisibility)
 // Vue.use(VueGtag, { config: { id: 'UA-238887-1' } }, router)
