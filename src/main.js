@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import { inject } from '@vercel/analytics';
 import { ObserveVisibility } from 'vue-observe-visibility'
 import { ToastPlugin, ModalPlugin } from 'bootstrap-vue'
 import VueCompositionAPI from '@vue/composition-api'
@@ -19,6 +20,8 @@ import './global-components'
 import '@/libs/portal-vue'
 import '@/libs/toastification'
 import '@/libs/clipboard'
+
+inject();
 
 Vue.directive('observe-visibility', ObserveVisibility)
 // Vue.use(VueGtag, { config: { id: 'UA-238887-1' } }, router)

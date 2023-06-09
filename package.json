@@ -33,6 +33,7 @@
     "@tharsis/eip712": "0.2.4",
     "@tharsis/proto": "0.1.19",
     "@tharsis/transactions": "^0.2.5",
+    "@vercel/analytics": "^1.0.1",
     "@vue/composition-api": "^1.4.9",
     "@vueuse/core": "4.0.0",
     "animate.css": "4.1.1",
