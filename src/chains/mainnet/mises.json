@@ -4,6 +4,7 @@
     "api": ["https://api.osmosis.alwaysbedream.dev"],
     "rpc": ["https://rpc.osmosis.alwaysbedream.dev"],
     "addr_prefix": "osmo",
+    "sdk_version": "0.40",
     "logo": "/logos/osmosis.png",
     "assets": [{
         "base": "uosmo",
