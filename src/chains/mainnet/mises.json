@@ -1,18 +1,15 @@
 {
     "chain_id": "mainnet",
-    "chain_name": "Mises",
-    "api": ["https://contabo1.alwaysbedream.dev:10000"],
-    "rpc": ["https://contabo1.alwaysbedream.dev:10001"],
-    "snapshot_provider": "",
-    "addr_prefix": "mises",
-    "logo": "/logos/mises.png",
-    "coin_type": 60,
-    "sdk_version": "0.46.4",
+    "chain_name": "Osmosis",
+    "api": ["https://api.osmosis.alwaysbedream.dev"],
+    "rpc": ["https://rpc.osmosis.alwaysbedream.dev"],
+    "addr_prefix": "osmo",
+    "logo": "/logos/osmosis.png",
     "assets": [{
-        "base": "umis",
-        "symbol": "MIS",
+        "base": "uosmo",
+        "symbol": "OSMO",
         "exponent": 6,
-        "coingecko_id": "MIS", 
-        "logo": "/logos/mises.png"
+        "coingecko_id": "osmosis", 
+        "logo": "/logos/osmosis.png"
     }]
 }

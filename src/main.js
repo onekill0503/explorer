@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { inject } from '@vercel/analytics';
+import { inject } from '@vercel/analytics'
 import { ObserveVisibility } from 'vue-observe-visibility'
 import { ToastPlugin, ModalPlugin } from 'bootstrap-vue'
 import VueCompositionAPI from '@vue/composition-api'
