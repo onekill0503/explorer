@@ -1,0 +1,15 @@
+{
+    "chain_id": "testnet",
+    "chain_name": "0G Zero Gravity",
+    "api": ["https://api.0g.alwaysbedream.dev"],
+    "rpc": ["https://rpc.0g.alwaysbedream.dev"],
+    "addr_prefix": "a0gi",
+    "sdk_version": "0.46.11",
+    "logo": "/logos/0g.png",
+    "assets": [{
+        "base": "ua0gi",
+        "symbol": "a0gi",
+        "exponent": 6,
+        "logo": "/logos/0g.png"
+    }]
+}
